@@ -1,0 +1,9 @@
+.nav {
+  width: 100%;
+  background-color: var(--bgColor);
+  text-align: left;
+  padding: var(--space1);
+  font-size: var(--fs-2);
+  color: var(--navColor);
+  box-shadow: var(--boxShadow);
+}

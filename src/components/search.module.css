@@ -1,0 +1,21 @@
+.inputDiv {
+  background-color: var(--bgColor);
+  width: 80%;
+  max-width: 30rem;
+  margin: var(--space2) auto;
+  box-shadow: var(--boxShadow2);
+  display: flex;
+  justify-content: center;
+}
+.foodInput {
+  border: none;
+  width: 90%;
+  border-radius: 4px;
+  padding: var(--space1);
+  font-size: var(--space1);
+  color: var(--navColor);
+}
+
+.foodInput:focus {
+  outline: none;
+}

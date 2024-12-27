@@ -1,0 +1,35 @@
+.itemContainer {
+  padding: 0 5%;
+}
+
+.foodItem {
+  width: 15rem;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 4px 6px rgb(0, 0, 0, 0.2);
+  margin: 1em auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.foodImage {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.foodTitle {
+  font-size: 1rem;
+  padding: 0 0.5rem;
+  text-align: center;
+}
+
+.foodButton {
+  padding: 0.5rem 0.8rem;
+  font-family: inherit;
+  background-color: transparent;
+  border: 1px solid green;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  text-align: center;
+  align-self: center;
+  cursor: pointer;
+}

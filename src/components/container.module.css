@@ -1,0 +1,13 @@
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/*@media (max-width: 970px) {
+  .container {
+    gap: 2rem;
+  }
+}*/
