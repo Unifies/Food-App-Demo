@@ -25,7 +25,7 @@ export default function FoodDetails({ foodId }) {
         <img src={food.image} />
       </div>
       <span>
-        <strong>Time to Cook: {food.readyInMinutes} </strong>
+        <strong>Time to Cook: {food.readyInMinutes} minutes </strong>
       </span>
       <div className={styles.foodDescription}>
         <span>👨‍👩‍👧‍👧Servings: {food.servings}</span>
@@ -33,7 +33,7 @@ export default function FoodDetails({ foodId }) {
         <span>{food.vegan ? "🌱Vegan" : "🥚Non-vegan"}</span>
       </div>
 
-      <span>${food.pricePerServing / 100} per serving</span>
+      <span>${(food.pricePerServing / 100).toFixed(2)} per serving</span>
 
       <div>
         <h2>Ingredients</h2>
